@@ -93,3 +93,14 @@ ul{
     color:darkmagenta;
     text-align: center;
   }
+  p{
+    color:darkslateblue;
+    text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  .bottom{
+    background-color: silver;
+    position: relative;
+  bottom: 400px;
+  padding: 70px;
+  }
