@@ -104,4 +104,12 @@ ul{
   bottom: 800px;
   padding: 70px;
   }
+  #home{
+    background-color:white;
+  }
+  em{
+    font-size: x-large;
+    color:tomato;
+    padding: 20px;
+  }
   
