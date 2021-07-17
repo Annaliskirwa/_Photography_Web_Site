@@ -112,4 +112,13 @@ ul{
     color:tomato;
     padding: 20px;
   }
-  
+  .column {
+    float: left;
+    width: 31%;
+    padding: 10px;
+  }
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
