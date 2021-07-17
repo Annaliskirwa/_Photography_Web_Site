@@ -6,15 +6,18 @@ li{
       font-weight: 900px;
       font-style: normal;
       color: darkblue;
-     
 }
 a:hover{
     color:darkorange;
 }
+.top{
+  position:absolute;
+  top: 10px;
+}
 .topleft{
     position: absolute;
     top: 10px;
-    left: 16px;
+    left:50px;
     color: darkblue;
     font-weight: 900;
 }
@@ -25,7 +28,7 @@ ul{
     padding-left: 80px;
     padding-top: 0px;
     overflow: hidden;
-    float:left
+    float:left;
 }
 .topright{
     position: absolute;
@@ -75,5 +78,11 @@ ul{
   }
   .dropdowncontent a:hover {
     background-color:lightpink;
+  }
+  #background{
+      opacity: 0.8;
+      height: 100%;
+      width: 100%;
+     
   }
   
