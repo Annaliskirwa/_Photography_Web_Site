@@ -1,6 +1,6 @@
 li{
-      display: inline;
-      padding: 70px;
+      display: inline-flex;
+      padding: 10px 70px;
       font-size: x-large;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       font-weight: 900px;
@@ -24,6 +24,8 @@ body{
 ul{
     padding-left: 80px;
     padding-top: 0px;
+    overflow: hidden;
+    float:left
 }
 .topright{
     position: absolute;
@@ -34,3 +36,44 @@ ul{
     display: inline;
     color:darkblue;
 }
+.dropdown{
+    float:left;
+    overflow: auto;
+}
+.dropbtn {
+    font-size: x-large;  
+    border: none;
+    outline: none;
+    color: darkblue;
+    padding: 0px;
+    background-color:white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+  }
+
+  .dropdowncontent{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+   
+  }
+   a:hover, .dropdown:hover .dropbtn {
+    background-color: lightpink;
+  }
+  .dropdowncontent a {
+    float: none;
+    color: darkblue;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown:hover .dropdowncontent {
+    display: block;
+  }
+  .dropdowncontent a:hover {
+    background-color:lightpink;
+  }
+  
