@@ -1,6 +1,6 @@
 li{
       display: inline;
-      padding: 30px;
+      padding: 70px;
       font-size: x-large;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       font-weight: 900px;
@@ -14,4 +14,19 @@ a:hover{
     position: absolute;
     top: 10px;
     left: 16px;
+}
+body{
+    padding: 30px;
+}
+ul{
+    padding-left: 80px;
+    padding-top: 0px;
+}
+.topright{
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    padding: 20px;
+    font-weight: 600;
+    display: inline;
 }
