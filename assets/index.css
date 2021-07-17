@@ -5,15 +5,18 @@ li{
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
       font-weight: 900px;
       font-style: normal;
+      color: darkblue;
      
 }
 a:hover{
-    color:blue;
+    color:darkorange;
 }
 .topleft{
     position: absolute;
     top: 10px;
     left: 16px;
+    color: darkblue;
+    font-weight: 900;
 }
 body{
     padding: 30px;
@@ -29,4 +32,5 @@ ul{
     padding: 20px;
     font-weight: 600;
     display: inline;
+    color:darkblue;
 }
