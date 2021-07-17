@@ -85,4 +85,11 @@ ul{
       width: 100%;
      
   }
-  
+  h2{
+    color: darkblue;
+    text-align: center;
+  }
+  h3{
+    color:darkmagenta;
+    text-align: center;
+  }
