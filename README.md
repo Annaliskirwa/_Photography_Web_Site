@@ -6,7 +6,7 @@
 {The application contains the list of the studios' favorite pictures, a short biography of the website as well as an option of making a booking and studio location.
 Its purpose is to enable people to have attractive and appealing pictures to create memories with. The website is found online.}
 ## Setup/Installation Requirements
-* Get the application link
+* Get the application link: https://annaliskirwa.github.io/_Photography_Web_Site/
 * Load it in a browser
 * View the pages the pictures and services offered
 * Book with us
